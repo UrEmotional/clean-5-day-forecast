@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(138, 132, 132);
+}
+p {
+    color: white
+}
+.card-body {
+    background-color: black;
+}
+.card-title {
+    color: white;
+}
+.text-center {
+    background-color: rgb(53, 53, 163);
+    color: white
+  }
+
+.card {
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }

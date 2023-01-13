@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Weather Forecast</h1>
+    <form id="city-form">
+      <div class="form-group">
+        <label for="city-input">Enter a City:</label>
+        <input type="text" class="form-control" id="city-input" placeholder="e.g. New York, London">
+      </div>
+      <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+    <div id="forecast-container" class="mt-5"></div>
+    <div id="history-container" class="mt-5">
+      <h2>Search History</h2>
+      <ul id="history-list"></ul>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
+
+
+
+
